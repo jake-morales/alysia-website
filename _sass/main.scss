@@ -6,9 +6,9 @@
 // Just uncomment the following block to see the result.
 
 // 1. Import the initial variables
-//@import "../node_modules/bulma/sass/utilities/initial-variables";
+@import "../node_modules/bulma/sass/utilities/initial-variables";
 
-/*
+
 // 2. Set your own initial variables
 // Update the blue shade, used for links
 // $blue: #06bcef;
@@ -18,6 +18,15 @@
 // Update the sans-serif font family
 // $family-sans-serif: "Helvetica", "Arial", sans-serif;
 // $tabs-border-bottom-style: none;
+/*
+@font-face {
+    font-family: 'Century Gothic';
+    src: url("https://use.typekit.net/oov2wcw.css");
+}
+*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+$family-sans-serif: Raleway, BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
 
 // 3. Set the derived variables
 // Use the new pink as the primary color
@@ -25,6 +34,5 @@
 // $primary-invert: $pink-invert;
 
 // 4. Import the rest of Bulma
-*/
 
 @import "../node_modules/bulma/bulma";
